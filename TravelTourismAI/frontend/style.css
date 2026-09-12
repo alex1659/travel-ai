@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #071634;
+
+    color: #172033;
+}
+
+
+header {
+
+    height: 70px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 8%;
+
+    background: white;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+
+.logo {
+
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+
+nav {
+
+    display: flex;
+
+    gap: 25px;
+}
+
+
+nav a {
+
+    text-decoration: none;
+
+    color: #172033;
+}
+
+.hero {
+
+    min-height: 500px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 8%;
+
+    background:
+        linear-gradient(
+            rgba(142, 92, 92, 0.45),
+            rgba(141, 97, 97, 0.45)
+        ),
+        url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee")
+        center/cover;
+}
+
+.hero-content {
+
+    color: rgb(255, 255, 255);
+
+    max-width: 600px;
+}
+
+
+.hero h1 {
+
+    font-size: 55px;
+
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+
+    font-size: 20px;
+
+    margin-bottom: 30px;
+}
+
+
+.button,
+button {
+
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #1769aa;
+
+    color: white;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+
+.planner {
+
+    max-width: 900px;
+
+    margin: 60px auto;
+
+    padding: 30px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+.planner h2 {
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+}
+
+
+.form {
+
+    margin-top: 30px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+input[type="text"],
+input[type="number"] {
+
+    padding: 13px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+}
+
+
+.interests {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin: 10px 0 20px;
+}
+
+
+.interests label {
+
+    padding: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+
+.result {
+
+    margin-top: 30px;
+}
+
+
+.day {
+
+    margin-top: 20px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    background: #f5f7fb;
+}
+
+
+.activity {
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    background: white;
+
+    border-radius: 8px;
+}
+
+
+footer {
+
+    text-align: center;
+
+    padding: 30px;
+
+    background: #172033;
+
+    color: white;
+}

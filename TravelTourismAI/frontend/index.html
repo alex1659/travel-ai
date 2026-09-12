@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>TravelAI</title>
+</h1>
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+<header>
+
+    <div class="logo">
+        ✈️ TravelAI
+    </div>
+
+    <nav>
+
+        <a href="#">Home</a>
+
+        <a href="#planner">
+            AI Planner
+        </a>
+
+        <a href="#destinations">
+            Destinations
+        </a>
+
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Explore More.<br>
+            Experience Better.
+        </h1>
+
+        <p>
+            Your AI-powered personal travel assistant.
+        </p>
+
+        <a href="#planner"
+           class="button">
+
+            Plan My Trip
+
+        </a>
+
+    </div>
+
+</section>
+
+<section id="planner"
+         class="planner">
+
+    <h2>
+        🤖 AI Trip Planner
+    </h2>
+
+    <p>
+        Tell us about your trip.
+    </p>
+
+
+    <div class="form">
+
+        <label>
+            Destination
+        </label>
+
+        <input
+            id="destination"
+            type="text"
+            placeholder="e.g. Goa"
+        >
+
+        <label>
+            Number of Days
+        </label>
+
+        <input
+            id="days"
+            type="number"
+            min="1"
+            placeholder="e.g. 3"
+        >
+
+
+        <label>
+            Budget (₹)
+        </label>
+
+        <input
+            id="budget"
+            type="number"
+            placeholder="10000"
+        >
+
+
+        <label>
+            Interests
+        </label>
+
+        <div class="interests">
+
+            <label>
+                <input
+                    type="checkbox"
+                    value="beach"
+                >
+                🏖️ Beach
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    value="nature"
+                >
+                🌲 Nature
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    value="adventure"
+                >
+                🧗 Adventure
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    value="culture"
+                >
+                🏛️ Culture
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    value="food"
+                >
+                🍴 Food
+            </label>
+
+        </div>
+
+
+        <button
+            onclick="generateTrip()">
+
+            Generate My Itinerary
+
+        </button>
+
+    </div>
+
+
+    <div
+        id="result"
+        class="result">
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>
+        © MADE BY NAYAN
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
